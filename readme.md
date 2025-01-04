@@ -102,13 +102,10 @@ location ~ .*\.(js|css)?$
 
 aaPanel 面板 > Cron。
 
-在 Type of Task 选择 Shell Script
-
-在 Name of Task 填写 v2board
-
-在 Period 选择 N Minutes 1 Minute
-
-在 Script content 填写 php /www/wwwroot/路径/artisan schedule:run
+> 在 Type of Task 选择 Shell Script  
+> 在 Name of Task 填写 v2board  
+> 在 Period 选择 N Minutes 1 Minute  
+> 在 Script content 填写 php /www/wwwroot/路径/artisan schedule:run
 
 根据上述信息添加每1分钟执行一次的定时任务。
 
@@ -120,11 +117,9 @@ aaPanel 面板 > App Store > Tools
 
 找到Supervisor进行安装，安装完成后点击设置 > Add Daemon按照如下填写
 
-在 Name 填写 V2board
-
-在 Run User 选择 www
-
-在 Run Dir 选择 站点目录 在 Start Command 填写 php artisan horizon 在 Processes 填写 1
+> 在 Name 填写 V2board  
+> 在 Run User 选择 www  
+> 在 Run Dir 选择 站点目录 在 Start Command 填写 php artisan horizon 在 Processes 填写 1
 
 填写后点击Confirm添加即可运行。
 
