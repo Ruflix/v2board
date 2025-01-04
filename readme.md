@@ -25,7 +25,9 @@ aaPanel是宝塔(bt.cn)的国际版本
 
 // 最新脚本可以在aaPanel官网获取
 
-`yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh`
+```
+yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh
+```
 
 安装完成后我们登陆 aaPanel 进行环境的安装。
 
@@ -61,19 +63,23 @@ aaPanel 面板 > Website > Add site。
 
 以下命令都需要在站点目录进行执行。
 
-删除目录下文件
-
-`chattr -i .user.ini`
-
-`rm -rf .htaccess 404.html index.html .user.ini`
+```
+# 删除目录下文件  
+chattr -i .user.ini  
+rm -rf .htaccess 404.html index.html .user.ini
+```
 
 执行命令从 Github 克隆到当前目录。
 
-`git clone https://github.com/v2board/v2board.git ./`
+```
+git clone https://github.com/v2board/v2board.git ./
+```
 
 执行命令安装依赖包以及V2board
 
-`sh init.sh`
+```
+sh init.sh
+```
 
 根据提示完成安装
 
