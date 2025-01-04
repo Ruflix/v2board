@@ -51,11 +51,9 @@ aaPanel 面板 > App Store > 找到PHP 7.4点击Setting > Disabled functions 将
 
 aaPanel 面板 > Website > Add site。
 
-在 Domain 填入你指向服务器的域名
-
-在 Database 选择MySQL
-
-在 PHP Verison 选择PHP-74
+> 在 Domain 填入你指向服务器的域名  
+> 在 Database 选择MySQL  
+> 在 PHP Verison 选择PHP-74
 
 ## 5.安装V2Board
 
