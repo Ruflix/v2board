@@ -85,7 +85,7 @@ aaPanel 面板 > Website > Add site。
 
 添加完成后编辑添加的站点 > URL rewrite 填入伪静态信息。
 
-
+```
 location /downloads {
 }
 
@@ -99,6 +99,7 @@ location ~ .*\.(js|css)?$
     error_log off;
     access_log /dev/null; 
 }
+```
 ## 7.配置定时任务
 
 aaPanel 面板 > Cron。
